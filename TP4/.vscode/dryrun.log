@@ -1,0 +1,10 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/chaima/Documents/Architecture parallèle/TP4'
+icc -g3 -xHost -mavx2 -Ofast -finline-functions -funroll-loops nbody3DSoA.c -o nbody3DSoA -qmkl -qopenmp 
+icc -g3 -xHost -mavx2 -Ofast -finline-functions -funroll-loops nbody3D2.c -o nbody3D2 -qmkl -qopenmp 
+icx -g3 -xHost -mavx2 -Ofast -finline-functions -funroll-loops nbody3DSoA.c -o nbody3DSoA -qmkl -qopenmp 
+icx -g3 -xHost -mavx2 -Ofast -finline-functions -funroll-loops nbody3D2.c -o nbody3D2 -qmkl -qopenmp 
+icx -g3 -xHost -mavx2 -Ofast -finline-functions -funroll-loops nbody3D5.c -o nbody3D5 -qmkl -qopenmp
+icc -g3 -xHost -mavx2 -Ofast -finline-functions -funroll-loops nbody3D6.c -o nbody3D6 -qmkl -qopenmp 
+make: Leaving directory '/home/chaima/Documents/Architecture parallèle/TP4'
+ 
