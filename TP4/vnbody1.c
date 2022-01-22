@@ -151,7 +151,7 @@ int main(int argc, char **argv)
       const f32 h1 = (f32)(n) * (f32)(n - 1);
 
       //GFLOPS
-      const f32 h2 = (23.0 * h1 + 3.0 * (f32)n) * 1e-9;
+      const f32 h2 = (24.0 * h1 + 3.0 * (f32)n) * 1e-9;
       
       if (i >= warmup)
 	{
